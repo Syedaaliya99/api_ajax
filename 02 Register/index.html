@@ -1,0 +1,73 @@
+ <!DOCTYPE html>
+ <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+ </head>
+ <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="responsive.css">
+ <script src="script.js"></script>
+    </head>
+    <body>
+    <nav>
+        <div class="logo">
+            <img src="C:\Users\Hp\Desktop\logo.png" alt="Logo">
+        </div>
+        <div class="nav-link">
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#login">Login</a>
+
+        </div>
+    </nav>
+     <div class="row">
+      <div class="column" style="background-color:#3b21af;" >
+        <div class="centered-image">
+        <img src="C:\Users\Hp\Desktop\logo.png" alt="Your Image" width="200"></div>
+       <h1 class="health-tracker1">HEALTH TRACKER</h1>
+      <p class="protect-yourself-by">Protect yourself by tracking your health</p>
+      </div>
+      <div class="column" style="background-color:white;">
+      <div class="input-box">
+          <b><h2> Enter Your Details Below :</h2></b> 
+          <br>
+           <form action="register.php" method="post">
+           <div class="input-box">
+         <label>Name</label>
+         <br><br>
+         <input type="text" placeholder="Enter your name" required="">
+         </div>
+        <br><br>
+        <div class="input-box">
+          <label>Email</label><br><br>
+            <input type="Email" placeholder="Enter your email" required="">
+            </div>  <br><br>
+           <div class="input-box">
+         <label>Password</label><br><br>
+              <input type="Password" placeholder="Enter Password" required="">
+            </div><br><br>
+            <div class="input-box">
+      <label>Renter your Password</label><br><br>
+            <input type="Password" placeholder="Renter your Password" required="">
+          </div> 
+          <br><br>
+          <h3>Gender</h3>
+               <div class="gender">
+                  <input type="radio" id="check-male" name="gender" checked="">
+                  <label for="check-male">male</label>
+                  <input type="radio" id="check-female" name="gender">
+                  <label for="check-female">Female</label>
+                </div>
+                <br> <br>
+               <input type ="submit" value="Sign Up">
+                <br>
+                <p>Already have an account?</p>
+                <a href="#login">Login In Here</a>
+              </form>
+      </div>
+    </div>
+    </body>
+    </html>
+    
+    

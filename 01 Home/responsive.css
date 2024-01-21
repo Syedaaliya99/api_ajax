@@ -1,0 +1,29 @@
+
+
+@media only screen and (max-width: 768px) {
+    .nav-link {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo img {
+        margin-bottom: 10px;
+    }
+
+    .centered-image {
+        margin-left: 0;
+    }
+
+    .health-tracker1 {
+        margin-left: 0;
+    }
+
+    .protect-yourself-by {
+        margin-left: 0;
+    }
+
+    form {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}

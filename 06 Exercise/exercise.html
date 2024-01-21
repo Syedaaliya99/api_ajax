@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise</title>
+           <link rel="stylesheet"href="style.css">
+           <link rel="stylesheet"href="responsive.css">  
+           <script src="script.js"></script>
+</head>
+<body>
+     <div class="sidenav">
+      
+          <li>
+             <a href="#">
+               <span class="links_name">Dashboard</span>
+             </a>
+         
+             <a href="#">
+               <span class="links_name">Meal</span>
+             </a>
+             <a href="#">
+              <span class="links_name">Sleep</span>
+            </a>
+         
+             <a href="#">
+               <span class="links_name">Water Intake</span>
+             </a>
+        
+             <a href="#">
+              <span class="links_name">Exercise</span>
+            </a>
+         
+             <a href="#">
+              <span class="links_name">Sign Out</span>
+             </a>
+        
+     </div>
+     <div class="content">
+     <p> Enter your exercise detail:</p>
+     <form action="exercise.php" method="get">
+        <label for=" START TIME">Start time::</label>
+        <input type="number" name="StartHours" min="1" max="12">
+        <span>Hrs</span>
+        <input type="number" name="StartMinutes" min="1" max="60">
+        <span>Min</span>
+       <br><br><br><br>
+       <label for="SLEEP End TIME">End Time:</label>
+       <input type="number" name="EndHours" min="1" max="12">
+        <span>Hrs</span>
+        <input type="number" name="EndMinutes" min="1" max="60">
+        <span>Min</span>
+      <br><br><br><br>
+      <label for="duration">Duration:</label>
+      <input type="number" name="DurationHours">
+      <span>Hrs</span>
+      <input type="number" name="DurationMinutes">
+      <span>Min</span>
+      <br><br><br><br>
+       <input type="submit" value="Save">
+       <div  class="button">
+         <input type="submit" value="Next">
+      </div>
+    </form>
+ </div>
+
+</body>
+</html>

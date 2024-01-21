@@ -1,0 +1,27 @@
+@media screen and (max-width: 700px) {
+    .sidenav {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidenav a {float: left;
+    font-size: 20px;}
+    div.content {margin-left: 0;
+    font-size:20px;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidenav a {
+      text-align: center;
+      float: none;
+    }
+    div.content {margin-left: 0;
+     
+      font-size:20px;}
+      content form label{
+        margin-left: 0;
+      }
+}
+
+  
+  

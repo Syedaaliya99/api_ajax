@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SLEEP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="script.js"> </script>  
+</head>
+<body>
+    <div class="sidenav">
+         <a href="#">
+           <span class="links_name">Dashboard</span>
+         </a>
+           <a href="#">
+               <span class="links_name">Meal</span>
+           </a>
+             <a href="#">
+               <span class="links_name">Sleep</span>
+           </a>
+             <a href="#">
+              <span class="links_name">Water Intake</span>
+           </a>
+             <a href="#">
+               <span class="links_name">Exercise</span>
+          </a>
+         <a href="#">
+            <span class="links_name">Sign Out</span>
+         </a>
+   </div>
+      <div class="content">
+         <p> Enter your Sleep Routine:</p>
+         <form action="sleep.php" method="get">
+        <label for="sleepStartTime">Sleep Start Time:</label>
+        <input type="number" name="sleepStartHours" min="1" max="12">
+        <span>Hrs</span>
+        <input type="number" name="sleepStartMinutes" min="0" max="59">
+        <span>Min</span>
+           <br>
+           <br><br><br><br>
+           <label for="sleepEndTime">Sleep End Time:</label>
+           <input type="number" name="sleepEndHours" min="1" max="12">
+           <span>Hrs</span>
+           <input type="number" name="sleepEndMinutes" min="0" max="59">
+           <span>Min</span>
+          <br><br><br><br>
+          <label for="duration">Duration:</label>
+         <input type="number" name="sleepDurationHours">
+         <span>Hrs</span>
+         <input type="number" name="sleepDurationMinutes">
+         <span>Min</span>
+            
+          <br><br><br><br>
+           <input type="submit" value="Save">
+           <div class="button">
+             <input type="submit" value="Next">
+          </div>
+        </form>
+     </div>
+</body>
+</html>

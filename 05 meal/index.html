@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="responsive.css">
+
+   
+    <title>Meal</title>
+    
+</head>
+<body>
+
+
+    <div class="sidenav">
+      
+           <a href="#">
+              
+                <span class="link-name">Dashboard</span>
+            </a></li>
+          <a href="#">
+
+                <span class="link-name">Meal</span>
+           <a href="#">
+<span class="link-name">Sleep</span>
+            </a>
+            <a href="#">
+                <span class="link-name">Water Intake</span>
+                </a>
+           <a href="#">
+
+                <span class="link-name">Exercise</span>
+                </a>
+           <a href="#">
+ 
+                <span class="link-name">Signout</span>
+            </a>
+        
+</div>
+      <div class="content">
+        <p> Enter your Meal Detail:</p>
+        <br><br>        
+        <form action="meal.php" method="post">
+           <label for="TIME">Time:</label>
+           <select id="Time" name="Time">
+           <option value="au">Breakfast</option>
+           <option value="ca">Lunch</option>
+           <option value="usa">Dinner</option>
+           <option value="usa">Other</option>
+           </select>
+      
+               <br><br><br>
+           <label for="Carbohydrates:">Carbohydrates:</label>
+             <input type="number" name="num" min="" max=""> 
+              <text>Grams
+               <br><br><br>
+           <label for="Protein">Protein:</label>
+            <input type="number" name="num" min="" max=""> 
+             <text>Grams
+              <br><br><br>
+           <label for="Calories">Calories:</label>
+            <input type="number" name="num" min="" max=""> 
+            <text>Kcal
+               <br><br><br>
+               <input type="submit" value="Save">
+               <div  class="button">
+                 <input type="submit" value="Next">
+              </div>
+        </form>
+      </div>
+      
+    <script src="script.js"></script>
+</body>
+</html>
